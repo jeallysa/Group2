@@ -1,0 +1,14 @@
+#links {
+    list-style-type: none;
+    
+}
+#links li a {
+    text-decoration: none;
+}
+
+#links li a:hover {
+    background-color: lightgray;
+}
+#selected {
+	border-bottom: 1px solid black ;
+}
