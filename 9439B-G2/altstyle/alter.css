@@ -1,38 +1,85 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-
 
   .navi{
 
-    border: 20px solid ;
-    color : white;
-    background-color: skyblue;
+      border: none;
+      color : white;
+      background-color:     #48D1CC;
       letter-spacing: 5px;
-      padding-top: 30px;
+      padding-top: 15px;
       padding-bottom: 15px;
       font: 20px Montserrat, sans-serif;
-      font-size: 20px;
-  }
-   #navi{
+      text-align: center;
+     
 
-    border: 20px solid ;
-    color : white;
-    background-color: skyblue;
-      letter-spacing: 5px;
-      padding-top: 30px;
-      padding-bottom: 15px;
-      font: 20px Montserrat, sans-serif;
-}
-   #links{
-	 list-style-type: none;
+  }
+  
+   .links{
+    list-style-type: none;
     margin: 0;
     padding: 0;
-}
-   
-	
+    overflow: hidden;
     
-</style>
+  }
+   
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+    li a:hover{
+    font-size: 25px; 
+    
+}
+.heading1{
+  font: 50px Montserrat, sans-serif;
+  text-align: center;
+}
+.content{
+   font: 15px Montserrat, sans-serif;
+   
+    margin-right: 100px;
+    
+}
 
-</html>
+
+.whatis:hover{
+  font-size: 18px;
+  border-style: solid;
+  color: black;
+}
+
+#whatwethink:hover{
+  font-size: 18px;
+  border-style: solid;
+  color: black;
+}
+#cover{
+  height: 250px;
+  width: 320px;
+ float: right;
+
+ margin-right: 300px;
+}
+
+#jeep{
+  height: 250px;
+  width: 320px;
+  margin-left: 300px; 
+}
+
+footer{
+  background-color: grey;
+  color: grey;
+  font: 50px Montserrat, sans-serif;
+  padding-bottom: 30px;
+  padding-top:30px;
+
+}
+footer:hover{
+  color: white;
+  
+
+}
