@@ -339,8 +339,8 @@ and (max-height: 720px){
 }
 .content {
 	background:#f7f7f7;
-    width: 450px;
-    height: 2000px;
+    width: 400px;
+    height: 2200px;
 	border:1px solid #f0e9eb;
 	padding:10px;
     font-size: 13px;
@@ -375,14 +375,14 @@ and (max-height: 720px){
     border-radius: 10px;
     margin-right: 50px;
 }
-#river2, #shad, #walk {
+#river2, #shad{
     float: right;
     width: 250px;
     height: 150px;
-    margin-left: 130px;
+    margin-left: 120px;
     border-radius: 10px;
 }
-#opinion1, #opinion2, #opinion3, #opinion4, #opinion5, #opinion6{
+#opinion1, #opinion2, #opinion3, #opinion4, #opinion5{
     display: inline-block;
     margin-left: 20px;
     margin-right: 200px;
@@ -392,22 +392,12 @@ and (max-height: 720px){
 .opinions {
 	background:#f7f7f7;
     width: 1200px;
-    height: 1300px;
+    height: 1250px;
 	border:1px solid #f0e9eb;
 	padding:5px;
     font-size: 13px;
     margin: auto;
     text-align: center;
 }   
-    .heading2 {
-    margin-top: 35px;
-    margin-bottom:20px;
-    margin-left: 30px;
-	font:normal 25px Georgia, serif;
-	color:#fa7393;
- }
-    #walk{
-        margin-left: 150px;
-    }
-    }
+    
     
