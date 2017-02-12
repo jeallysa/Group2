@@ -1,9 +1,6 @@
 body {
     font:normal 12px/1.6em Arial, Helvetica, sans-serif;
 	color:#2a3845;
-	margin:0;
-	padding:0;
-	background:#FFFFFF;
 }
 
 .navi {
@@ -22,12 +19,14 @@ body {
     position: absolute;
     top: 79px;
     display: block;
-    margin-left: 20px;
+    margin-left: 900px;
     border: 3px;
     z-index: -2;
 }
 footer {
-	background:#06a;
+    background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+    background: -webkit-linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+    background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 	border-top:1px solid #f0e9eb;
 	padding:5px 10px;
 	clear:both;
@@ -68,19 +67,18 @@ h2 {
 	border-bottom:1px solid #efece7;
 }
 
-
 ul {
 	padding:0;
     list-style: none;
 }
 li {
-    float: left;
-    margin-left: 50px;
+    display: inline-block;
+    width: 200px;
 }
 
 .content {
 	background:#f7f7f7;
-    width: 750px;
+    width: 820px;
     height: 1550px;
 	border:1px solid #f0e9eb;
 	padding:30px;
@@ -89,10 +87,10 @@ li {
 }
 
 .links {
-    background:#06a;
-	border-top:1px solid #f0e9eb;
+    background: linear-gradient(10deg, #05abe0 0%,#ff89e9 100%);
+    background: -webkit-linear-gradient(10deg, #05abe0 0%,#ff89e9 100%);
+    background: -webkit-linear-gradient(10deg, #05abe0 0%,#ff89e9 100%);
 	padding:25px 25px;
-    text-align:right;
 	clear:both;
     color: white;
     position: fixed; 
@@ -100,6 +98,7 @@ li {
     margin: 0;
     width: 100%;
     font-size: 25px;
+    text-align: center;
 }
 
 a:visited, a:link {
@@ -108,7 +107,7 @@ a:visited, a:link {
 }
 
 a:hover {
-	color: #ffffff;
+	color: red;
     text-decoration:underline;
 }
 
@@ -118,167 +117,57 @@ a:hover {
     margin-left: 170px;
 	font:normal 45px Georgia, serif;
 	color:#fa7393;
+    width: 1500px;
+}
+.heading2 {
+    margin-top: 70px;
+    margin-bottom:20px;
+    margin-left: 200px;
+    text-align: center;
+	font:normal 45px Georgia, serif;
+	color:#fa7393;
+    width: 1500px;
 }
 
-.hovereffect {
-  width: 48%;
-  height: 70%;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
-  background: -webkit-linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
-  background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
-}
 
 .hovereffect img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: calc(100% + 70px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition:opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-40px,0,0);
-  transform: translate3d(-40px,0,0);
-}
-
-.hovereffect1 img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: calc(100% + 70px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition:opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-40px,0,0);
-  transform: translate3d(-40px,0,0);
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
 }
 
 .hovereffect:hover img {
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.hovereffect1 {
-width: 48%;
-height: 70%;
-float:left;
-overflow:hidden;
-position:relative;
-text-align:center;
-cursor:default;
-}
-
-.hovereffect1 .overlay {
-width:100%;
-height:100%;
-position:absolute;
-overflow:hidden;
-top:0;
-left:0;
-opacity:0;
-background-color:rgba(0,0,0,0.5);
--webkit-transition:all .4s ease-in-out;
-transition:all .4s ease-in-out
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
 }
 
 .hovereffect1 img {
-display:block;
-position:relative;
--webkit-transition:all .4s linear;
-transition:all .4s linear;
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
 }
 
 .hovereffect1:hover img {
--ms-transform:scale(1.2);
--webkit-transform:scale(1.2);
-transform:scale(1.2);
-}
-.hovereffect2 {
-  width: 48%;
-  height: 70%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-}
-
-.hovereffect2 .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.hovereffect2:hover .overlay {
-  background-color: rgba(170,170,170,0.4);
-}
-
-.hovereffect2 h2, .hovereffect2 img {
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
 }
 
 .hovereffect2 img {
-  display: block;
-  position: relative;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
 }
 .hovereffect2:hover img {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
 }
-.hovereffect2 h2 {
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
-}
-.hovereffect2 a.info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 7px 14px;
-  text-transform: uppercase;
-  color: #fff;
-  border: 1px solid #fff;
-  margin: 50px 0 0 0;
-  background-color: transparent;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  font-weight: normal;
-  height: 85%;
-  width: 85%;
-  position: absolute;
-  top: -20%;
-  left: 8%;
-  padding: 70px;
-}
-.hovereffect2:hover a.info {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  background-color: rgba(0,0,0,0.4);
-}
+
 .absolute {
     position: absolute;
     top: 200px;
@@ -297,6 +186,8 @@ transform:scale(1.2);
 #img1, #img2, #img3{
     width: 700px;
     height: 500px;
+    z-index: -2;
+    margin-left: 200px;
 }
 #river, #bch, #boat{
     float: left;
@@ -345,16 +236,6 @@ and (max-height: 720px){
 	font:normal 25px Georgia, serif;
 	color:#fa7393;
  }
- #cover {
-    width:50px;
-    height: 30px;
-    position: absolute;
-    top: 50px;
-    display: block;
-    margin-left: 210px;
-    border: 3px;
-    z-index: -2;
-}
 .content {
 	background:#f7f7f7;
     width: 400px;
