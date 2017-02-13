@@ -263,6 +263,23 @@ a:hover {
     margin: auto;
     text-align: center;
 }
+#img6{
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+    display: block;
+    border-style: solid;
+    
+}
+#img6:hover {
+   -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+.about{
+    margin-top: 100px;
+}
 
 /* Responsiveness */
 @media screen and (max-width: 1080px)
