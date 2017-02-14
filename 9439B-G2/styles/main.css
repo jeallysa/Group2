@@ -290,6 +290,7 @@ a:hover {
     margin-left: 300px;
     margin-right: 300px;
     font-size:24px;
+    line-height: 30px;
 }
 #melo{
         border-radius: 50%;
@@ -317,6 +318,9 @@ a:hover {
 	width: 20%;
     position:inherit; 
     }
+.Members{
+    font-size: 30px;
+}
     
 
 
