@@ -106,6 +106,9 @@ li {
     font-size: 13px;
     margin-left: 100px;
 }
+.Members{
+    text-align: center;
+}
 
 .links {
     background: linear-gradient(10deg, #05abe0 0%,#ff89e9 100%);
@@ -266,7 +269,7 @@ a:hover {
 #img6{
     width: 400px;
     height: 250px;
-    margin-left: 10px;
+    margin-left: 590px;
     display: block;
     border-style: solid;
     
@@ -279,6 +282,9 @@ a:hover {
 
 .about{
     margin-top: 100px;
+}
+.abot{
+    text-align: center;
 }
 
 /* Responsiveness */
