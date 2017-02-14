@@ -286,54 +286,34 @@ a:hover {
 .abot{
     text-align: center;
 }
-
-/* Responsiveness */
-@media screen and (max-width: 1080px)
-and (max-height: 720px){
-    .links{
-        font-size: 20px;
-        padding:15px 15px;
+#melo{
+        border-radius: 50%;
+	width: 20%;
+    position:inherit;
     }
- .heading1 {
-    margin-top: 35px;
-    margin-bottom:20px;
-    margin-left: 30px;
-	font:normal 25px Georgia, serif;
-	color:#fa7393;
- }
-.content {
-	background:#f7f7f7;
-    width: 400px;
-    height: 2200px;
-	border:1px solid #f0e9eb;
-	padding:10px;
-    font-size: 13px;
-    margin-left: 50px;
-}
-#river2, #shad{
-    float: right;
-    width: 500px;
-    height: 300px;
-    margin-left: 50px;
-    border-radius: 10px;
-}
-#opinion1, #opinion2, #opinion3, #opinion4, #opinion5{
-    display: inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    
-}
-.opinions {
-	background:#f7f7f7;
-    width: 1200px;
-    height: 2000px;
-	border:1px solid #f0e9eb;
-	padding:30px;
-    font-size: 13px;
-    margin: auto;
-    text-align: center;
-}
+    #jeanne{
+        border-radius: 90%;
+	width: 450px;
+    position:inherit; 
+        height:300px;
+        
+    }
+  #richy{
+        border-radius: 50%;
+	width: 20%;
+    position:inherit; 
+    }
+  #jakob{
+        border-radius: 50%;
+	width: 20%;
+    position:inherit; 
+    }
+  #avery{
+        border-radius: 50%;
+	width: 20%;
+    position:inherit; 
+    }
+
 
 
 /* Responsiveness */
