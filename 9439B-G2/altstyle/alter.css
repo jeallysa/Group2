@@ -1,36 +1,47 @@
-
+  *{
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+  img{
+    width: 500px;
+    height: 500px;
+  }
+ 
   .navi{
-
+      width: 100%;
       border: none;
       color : white;
       background-color:     #48D1CC;
-      letter-spacing: 5px;
       padding-top: 15px;
       padding-bottom: 15px;
       font: 20px Montserrat, sans-serif;
       text-align: center;
+      box-shadow:0 0 10px rgba(0,0,0,0.8);
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+
      
 
   }
   
    .links{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     
   }
    
   li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     float: left;
+    transition: all .2s ease-in-out;
 }
     li a:hover{
-    font-size: 25px; 
+    transform: scale(1.2);  
+
     
 }
 .heading1{
@@ -46,13 +57,12 @@
 
 
 .whatis:hover{
-  font-size: 18px;
   border-style: solid;
   color: black;
 }
 
 #whatwethink:hover{
-  font-size: 18px;
+
   border-style: solid;
   color: black;
 }
@@ -71,15 +81,11 @@
 }
 
 footer{
+  width: 100%;
   background-color: grey;
-  color: grey;
-  font: 50px Montserrat, sans-serif;
-  padding-bottom: 30px;
-  padding-top:30px;
-
-}
-footer:hover{
   color: white;
-  
+  font: 20px Montserrat, sans-serif;
+  padding-bottom: 5px;
+  padding-top:5px;
 
 }
