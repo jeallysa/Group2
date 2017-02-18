@@ -1,37 +1,29 @@
   *{
-    padding: 0 auto;
+    padding: 0;
     margin: 0 auto;
   }
   img{
     width: 500px;
     height: 500px;
   }
- 
   .navi{
       width: 100%;
       border: none;
       color : white;
       background-color:     #48D1CC;
-      padding-top: 15px;
-      padding-bottom: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       font: 20px Montserrat, sans-serif;
       text-align: center;
       box-shadow:0 0 10px rgba(0,0,0,0.8);
       text-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-     
-
   }
-  
    .links{
     list-style-type: none;
-    padding: 10px;
+    padding: 5px;
     overflow: hidden;
-    
   }
-   
   li a {
-    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -40,52 +32,60 @@
     transition: all .2s ease-in-out;
 }
     li a:hover{
-    transform: scale(1.2);  
-
-    
+    transform: scale(1.2);   
 }
 .heading1{
   font: 50px Montserrat, sans-serif;
   text-align: center;
 }
-.content{
-   font: 15px Montserrat, sans-serif;
-   
-    margin-right: 100px;
-    
+.content, .opinions, .about{
+    font: 15px Montserrat, sans-serif;
+    background:#f7f7f7;
+    width: 100%;
+  	border:1px solid #f0e9eb;
+    box-shadow:0 0 10px rgba(0,0,0,0.8);
+  	padding:10px;
+    position: relative;
+    font-size: 13px;
+    align-content: center;
+    float: left;   
 }
-
-
-.whatis:hover{
-  border-style: solid;
-  color: black;
+.whatis, #whatwethink{
+  margin: 20px;
+  padding-bottom: 50px;
 }
-
-#whatwethink:hover{
-
-  border-style: solid;
-  color: black;
+#img1,#img2,#img3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width:  500px;
+  height: 500px;
+  float: left;
+}
+.heading1{
+  padding: 20px;
 }
 #cover{
-  height: 250px;
-  width: 320px;
- float: right;
-
- margin-right: 300px;
+    width:140px;
+    height: 85px;
+    position: absolute;
+    top: 140px;
+    display: block;
+    margin-left: 950px;
+    border: 3px;
+    z-index: -2;
 }
-
 #jeep{
   height: 250px;
   width: 320px;
   margin-left: 300px; 
 }
-
 footer{
   width: 100%;
   background-color: grey;
   color: white;
+  box-shadow:0 0 10px rgba(0,0,0,0.8);
   font: 20px Montserrat, sans-serif;
   padding-bottom: 5px;
   padding-top:5px;
-
+  float: left;
 }
