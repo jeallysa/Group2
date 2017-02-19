@@ -396,3 +396,43 @@ h1 {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+
+/*ABOUT
+*/
+.about{
+    
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    padding: 50px;
+    position: relative;
+	display: inline-block;
+    margin-bottom: 50px;
+	box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4),
+    	0 5px 10px rgba(0,0,0,0.5);
+}
+.abot{
+    font: normal 20px Georgia, serif;
+}
+.Members div img{
+margin-bottom: 50px;
+width: 400px;
+height: 300px;
+border-radius: 80%;
+transition: all .4s ease-in-out;
+}
+.Members div img:hover{
+transform: scale(1.2); 
+border-radius: 10px;
+box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4),
+    	0 5px 10px rgba(0,0,0,0.5);
+}
+.Members h4{
+     font: normal 55px Georgia, serif;
+}
+.Members p {
+    text-decoration: none;
+    font: normal 45px Century gothic, serif;
+
+}
+
