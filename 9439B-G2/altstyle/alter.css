@@ -1,6 +1,8 @@
   * {
       padding: 0;
       margin: 0 auto;
+      font-style: oblique;
+      line-height: 20px;
   }
   img {
       width: 500px;
@@ -14,7 +16,6 @@
       padding-bottom: 10px;
       font: 20px Montserrat, sans-serif;
       text-align: center;
-
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       position: inherit;
   }
@@ -37,22 +38,21 @@
   }
   .heading1 {
       font: 50px Montserrat, sans-serif;
-      text-align: center;
+      
   }
   .content,
   .opinions,
   {
-      font: 15px Montserrat, sans-serif;
+      font: Montserrat, sans-serif;
       background: none;
-      width: 70%;
+      width: 100%;
       height: 70%;
       border: 1px solid #f0e9eb;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
       padding: 10px;
       position: relative;
-      font-size: 20px;
       float: left;
-      margin-left: 10%;
+    
   }
   .whatis,
   #whatwethink {
@@ -67,7 +67,6 @@
       width: 600px;
       height: 400px;
       float: left;
-
   }
   .heading1 {
       padding: 20px;
@@ -97,7 +96,7 @@
       float: left;
   }
   #bch:hover {
-      transform: scale(1.2);    
+      transform: scale(1.2);
   }
   #river:hover {
       transform: scale(1.2);
@@ -106,7 +105,7 @@
       transform: scale(1.2);
   }
   #shad:hover {
-      transform: scale(1.2);    
+      transform: scale(1.2);
   }
   #boat:hover {
       transform: scale(1.2);
@@ -114,120 +113,127 @@
   #walk:hover {
       transform: scale(1.2);
   }
-/* Responsiveness */
-@media screen and (max-width: 1080px)
-and (max-height: 720px){
-    .links{
-        font-size: 20px;
-        padding:15px 15px;
-    }
- .heading1 {
-    margin-top: 35px;
-    margin-bottom:20px;
-    margin-left: 30px;
-	font:normal 25px Georgia, serif;
-	color:#fa7393;
- }
- #cover {
-    width:50px;
-    height: 30px;
-    position: absolute;
-    top: 50px;
-    display: block;
-    margin-left: 210px;
-    border: 3px;
-    z-index: -2;
-}
-.content {
-	background:#f7f7f7;
-    width: 450px;
-    height: 2000px;
-	border:1px solid #f0e9eb;
-	padding:10px;
-    font-size: 13px;
-    margin-left: 50px;
-}
-    h1 {
-	color:#7a2e40;
-	margin:0 0 10px;
-	padding-bottom:10px;
-	font:normal 5px Georgia, serif;
-	border-bottom:1px solid #efece7;
-}
-    #img1{
-    width: 370px;
-    height: 260px;
-    margin-left: 480px;
-    margin-top: -50px;
-    display: block; 
-    
-}
-#img2, #img3{
-  width: 370px;
-    height: 260px;
-    margin-left: 480px;
-    display: block; 
-}
- #river, #bch, #boat{
-    float: left;
-    width: 250px;
-    height: 150px;
-    margin-left: 15px;
-    border-radius: 10px;
-    margin-right: 50px;
-}
-#river2, #shad, #walk{
-    float: right;
-    width: 250px;
-    height: 150px;
-    margin-left: 120px;
-    border-radius: 10px;
-}
-#opinion1, #opinion2, #opinion3, #opinion4, #opinion5, #opinion6{
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 200px;
-    margin-top: 50px;
-    
-}
-.opinions {
-	background:#f7f7f7;
-    width: 1100px;
-    height: 1250px;
-	border:1px solid #f0e9eb;
-	padding:5px;
-    font-size: 13px;
-    margin: auto;
-    text-align: center;
-}   
-     .heading2 {
-    margin-top: 35px;
-    margin-bottom:20px;
-    position: 
-	font:normal 25px Georgia, serif;
-	color:#fa7393;
- }
-    .navi {
-    width: auto;
-	border-left:1px solid #f0e9eb;
-	border-right:1px solid #f0e9eb;
-    font-size: 25px;
-    font-family:helvetica sans-serif;
-    text-align: center;
-}
-    footer {
-    background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
-    background: -webkit-linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
-    background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
-	border-top:1px solid #f0e9eb;
-	padding:5px 10px;
-	clear:both;
-    color: white;
-    position: fixed; 
-    bottom: 0;
-    margin: 0;
-    width: 1070px;
-    font-size: 15px;
-}
-    }
-    
+
+  /* Responsiveness */
+  
+  @media screen and (max-width: 1080px) and (max-height: 720px) {
+      .links {
+          font-size: 20px;
+          padding: 15px 15px;
+      }
+      .heading1 {
+          margin-top: 35px;
+          margin-bottom: 20px;
+          margin-left: 30px;
+          font: normal 25px Georgia, serif;
+          color: #fa7393;
+      }
+      #cover {
+          width: 50px;
+          height: 30px;
+          position: absolute;
+          top: 50px;
+          display: block;
+          margin-left: 210px;
+          border: 3px;
+          z-index: -2;
+      }
+      .content {
+          background: #f7f7f7;
+          width: 450px;
+          height: 2000px;
+          border: 1px solid #f0e9eb;
+          padding: 10px;
+          font-size: 13px;
+          margin-left: 50px;
+      }
+      h1 {
+          color: #7a2e40;
+          margin: 0 0 10px;
+          padding-bottom: 10px;
+          font: normal 5px Georgia, serif;
+          border-bottom: 1px solid #efece7;
+      }
+      #img1 {
+          width: 370px;
+          height: 260px;
+          margin-left: 480px;
+          margin-top: -50px;
+          display: block;
+      }
+      #img2,
+      #img3 {
+          width: 370px;
+          height: 260px;
+          margin-left: 480px;
+          display: block;
+      }
+      #river,
+      #bch,
+      #boat {
+          float: left;
+          width: 250px;
+          height: 150px;
+          margin-left: 15px;
+          border-radius: 10px;
+          margin-right: 50px;
+      }
+      #river2,
+      #shad,
+      #walk {
+          float: right;
+          width: 250px;
+          height: 150px;
+          margin-left: 120px;
+          border-radius: 10px;
+      }
+      #opinion1,
+      #opinion2,
+      #opinion3,
+      #opinion4,
+      #opinion5,
+      #opinion6 {
+          display: inline-block;
+          margin-left: 20px;
+          margin-right: 200px;
+          margin-top: 50px;
+      }
+      .opinions {
+          background: #f7f7f7;
+          width: 1100px;
+          height: 1250px;
+          border: 1px solid #f0e9eb;
+          padding: 5px;
+          font-size: 13px;
+          margin: auto;
+          text-align: center;
+      }
+      .heading2 {
+          margin-top: 35px;
+          margin-bottom: 20px;
+          position: font: normal 25px Georgia, serif;
+          color: #fa7393;
+      }
+      .navi {
+          width: auto;
+          border-left: 1px solid #f0e9eb;
+          border-right: 1px solid #f0e9eb;
+          font-size: 25px;
+          font-family: helvetica sans-serif;
+          text-align: center;
+      }
+      footer {
+          background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+          background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+          background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+          border-top: 1px solid #f0e9eb;
+          padding: 5px 10px;
+          clear: both;
+          color: white;
+          position: fixed;
+          bottom: 0;
+          margin: 0;
+          width: 1070px;
+          font-size: 15px;
+      }
+  }
